@@ -1,0 +1,320 @@
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: red;
+}
+
+.paragraph {
+    background-color: #000;
+    color: yellow;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#exclusive-title {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* h2 {
+    border-bottom: 2px solid red;
+} */
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#titulo-aleatorio {
+    border-bottom: 4px solid green;
+}
+
+.color-name {
+    color: rgb(151, 12, 40);
+}
+
+.hexadecimal{
+    color: #55a398;
+}
+
+.hexadecimal-2{
+    color: #0fe02b;
+}
+
+.hex-simplificado{
+    color: #123;
+}
+
+.hex-simplificado-2{
+    color: #f03f03;
+}
+
+.rgb-test{
+    color: rgb(0, 255, 0);
+}
+
+.rgb-test-mixed{
+    color: rgb(201, 2, 96);
+}
+
+.rgba-test{
+    color: rgba(109, 10, 9, 0.6);
+}
+.hsl-test{
+    color: hsl(19, 100%, 34%);
+}
+
+.hsl-test-2{
+    color: hsl(20, 80%,48%);
+}
+
+.background{
+    background-color: #123;
+    color: #fff;
+}
+
+.background-2{
+    background-color: rgb(55,2,8);
+    color: #fff;
+}
+
+.bg-opacity{
+    background-color: #000;
+    color: blueviolet;
+    opacity: 0.3;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #000;
+    opacity: 0.5;
+}
+
+.rgba-opacity{
+    background-color: rgba(60,40,70,0.4);
+    color: #000;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.bg-image{
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+}
+
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/bridge.jpg);
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: #000;
+}
+.height-width-2{
+    height: 300px;
+    background-color: #f6f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.without-padding, .padding{
+    background-color: #234;
+    color: #fff;
+}
+
+.padding{
+    background-color: #278;
+    padding: 20px;
+}
+
+.padding-individual{
+    background-color: #229;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.shorthand-padding{
+    background-color: #000;
+    color: white;
+    padding: 10px 20px 40px 30px;
+}
+
+.shorthand-padding-2{
+    background-color: #256;
+    padding: 10px 30px;
+}
+
+.without-border-box{
+    background-color: #000;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #190;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 5px solid blue;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.border-2{
+    padding: 15px;
+    background-color: black;
+    color: #f0f0f0;
+    border-radius: 40px;
+}
+
+.border-left{
+    border-left: 4px solid #190;
+    background-color: #222;
+    padding: 15px;
+}
+
+.border-bottom{
+    background-color: #510;
+    border-bottom: 10px double #000;
+    padding: 20px;
+    color: #fff;
+}
+
+.margin{
+    margin: 20px;
+    background-color: #333;
+}
+
+.margin-top{
+    margin-top: 50px;
+    background-color: #229;
+    padding: 10px;
+}
+
+.margin-shorthand{
+    background-color: #278;
+    margin: 10px 10px 20px 30px;
+
+}
+
+/* .box-model{
+    margin: 15px;
+    padding: 10px 20px;
+    border: 4px solid #510;
+    border-radius: 8px;
+    width: 200px;
+    height: 350px;
+    background-color: #278;
+} */
+
+#Desafio-css{
+    margin: 15px;
+    padding: 20px 30px;
+    border: 6px solid #845884;
+    outline: 6px solid #186;
+    background-color: #134;
+}
+
+.desafio-css{
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.text-align{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 4px solid red;
+    border-radius: 20px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-trough{
+    text-decoration: line-through;
+}
+.remove-underline{
+    text-decoration: none;
+    color: #229;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+    letter-spacing: 4px;
+}
+
+.serif{
+    font-style: oblique;
+}
+
+.serif-2{
+    font-style: italic;
+}
+
+.Sans-serif{
+    text-transform: lowercase;
+    font-family: sans-serif;
+}
+
+.Monospace{
+    text-transform: lowercase;
+    font-family: monospace;
+}
+
+.Cursive{
+    text-transform: lowercase;
+    font-family: cursive;
+}
+
+.Fantasy{
+    text-transform: lowercase;
+    font-family: fantasy;
+}
+
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
