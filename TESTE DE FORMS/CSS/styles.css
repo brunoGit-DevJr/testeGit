@@ -17,8 +17,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhorar a legibilidade */
     padding: 20px;
     border-radius: 10px;
-    width: 300px; /* Definindo a largura do formulário */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para dar destaque */
+    width: 320px; /* Definindo a largura do formulário */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave para dar destaque */
   }
   
   /* Estilos do formulário de login */
@@ -39,9 +39,9 @@ body {
   
   .login-form input {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #000;
     border-radius: 5px;
-    width: 100%;
+    width: 94%;
   }
   
   .login-form button {
