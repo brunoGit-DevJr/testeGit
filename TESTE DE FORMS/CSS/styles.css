@@ -1,0 +1,59 @@
+/* Definir a imagem de fundo para a página */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../IMG/dcImage.jpeg); /* Insira o caminho da sua imagem aqui */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos do contêiner de login */
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Definindo a largura do formulário */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para dar destaque */
+  }
+  
+  /* Estilos do formulário de login */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-form h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  .login-form label {
+    color: white;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #45a049;
+  }
+  
